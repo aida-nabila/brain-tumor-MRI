@@ -37,6 +37,25 @@ You can find the dataset on Kaggle using the following link:
 - `keras`
 - `sklearn`
 
+## Setting Up Kaggle API
+**Step 1: Generate Kaggle API Token**
+1. Go to your Kaggle account settings: Account.
+2. Scroll down to the "API" section and click on "Create New API Token". This will download a kaggle.json file containing your API credentials.
+
+**Step 2: Set Up Kaggle API in Google Colab**
+1. Upload the kaggle.json file to your Google Drive.
+2. Mount your Google Drive in Google Colab and copy the kaggle.json file to the appropriate directory:
+
+```
+from google.colab import drive
+drive.mount('/content/drive')
+
+!mkdir -p ~/.kaggle
+!cp /content/drive/My\ Drive/path_to_your_kaggle.json ~/.kaggle/kaggle.json
+!chmod 600 ~/.kaggle/kaggle.json
+```
+Replace path_to_your_kaggle.json with the actual path to your kaggle.json file in Google Drive.
+
 # Results
 The models are evaluated based on the following metrics:
 
