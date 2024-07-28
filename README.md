@@ -40,7 +40,7 @@ You can find the dataset on Kaggle using the following link:
 ## Installing
 ### Step 1: Clone the Repository
 ```
-git clone https://github.com/yourusername/brain-tumor-MRI.git
+git clone https://github.com/aida-nabila/brain-tumor-MRI.git
 cd brain-tumor-MRI
 ```
 
