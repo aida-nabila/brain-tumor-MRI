@@ -37,14 +37,24 @@ You can find the dataset on Kaggle using the following link:
 - `keras`
 - `sklearn`
 
-## Setting Up Kaggle API
-**Step 1: Generate Kaggle API Token**
-1. Go to your Kaggle account settings: Account.
-2. Scroll down to the "API" section and click on "Create New API Token". This will download a kaggle.json file containing your API credentials.
+## Installing
+### Step 1: Clone the Repository
+```
+git clone https://github.com/yourusername/brain-tumor-MRI.git
+cd brain-tumor-MRI
+```
 
-**Step 2: Set Up Kaggle API in Google Colab**
-1. Upload the kaggle.json file to your Google Drive.
-2. Mount your Google Drive in Google Colab and copy the kaggle.json file to the appropriate directory:
+### Step 2: Set Up Kaggle API
+**1. Create a Kaggle Account** <br>
+If you don't already have a Kaggle account, sign up at [Kaggle](https://www.kaggle.com). 
+
+**2. Generate Kaggle API Token**
+- Go to your Kaggle account settings: Account.
+- Scroll down to the _API_ section and click on _Create New API Token_. This will download a `kaggle.json` file containing your API credentials.
+
+**3. Set Up Kaggle API in Google Colab**
+- Upload the kaggle.json file to your Google Drive.
+- Mount your Google Drive in Google Colab and copy the `kaggle.json` file to the appropriate directory:
 
 ```
 from google.colab import drive
