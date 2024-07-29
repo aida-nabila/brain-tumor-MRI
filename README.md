@@ -73,3 +73,10 @@ The models are evaluated based on the following metrics:
 - Mean Average Precision (mAP)
 - Training Time
 - Model Complexity (Number of Parameters)
+
+# Performance Summary
+| Model       | Test Accuracy | mAP  | Training Time (seconds) | Parameters   |
+|-------------|---------------|------|--------------------------|--------------|
+| MobileNetV3 | 0.67          | 0.53 | 12424.56                 | 5.4 million  |
+| DenseNet121 | 0.96          | 0.98 | 39842.43                 | 8 million    |
+| ResNet50    | 0.71          | 0.65 | 17574.55                 | 23.5 million |
