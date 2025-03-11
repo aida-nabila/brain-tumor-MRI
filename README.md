@@ -18,6 +18,14 @@ The dataset consists of up to 20,000 brain tumor MRI images, categorized into th
 You can find the dataset on Kaggle using the following link:
 [Brain Tumors Dataset on Kaggle](https://www.kaggle.com/datasets/mohammadhossein77/brain-tumors-dataset)
 
+## Example MRI Images
+
+Below are some example brain tumor MRI scans from the dataset.
+
+| **Glioma Tumor** | **Meningioma Tumor** | **Pituitary Tumor** | **No Tumor (Normal)** |
+|------------------|----------------------|----------------------|----------------------|
+| ![Glioma Tumor](Data/Tumor/glioma_tumor/G_1.jpg) | ![Meningioma Tumor](Data/Tumor/meningioma_tumor/M_1.jpg) | ![Pituitary Tumor](Data/Tumor/pituitary_tumor/P_1.jpg) | ![No Tumor](Data/Normal/N_1.jpg) |
+
 # Getting Started
 ## Prerequisites
 
